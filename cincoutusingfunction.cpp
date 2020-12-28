@@ -5,7 +5,7 @@ string getfullname(string,string);
 int main() {
 	string firstname= "hitesh";
 	string lastname= "choudhary";
-	string fullname = getfullname(firstname,lastname);
+	string fullname=getfullname(firstname,lastname);
 	char letter=firstname[1];
 	cout<<fullname;
 	string nickname;
